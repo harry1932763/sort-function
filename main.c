@@ -5,6 +5,7 @@
 const char * sort(char user_string[]);
 const char* set_string(char user_string[]);
 const char * count_of_characters(char user_sentence1[], char Table_name[]);
+int number;const char * letter();
 
 int main(void) {
 
@@ -53,7 +54,7 @@ const char * sort(char user_string[]){
   }
 
   char *user_cpy_pointer = user_cpy;
-  return user_cpy_pointer;
+  return user_cpy_pointer;    
 }
 
 
